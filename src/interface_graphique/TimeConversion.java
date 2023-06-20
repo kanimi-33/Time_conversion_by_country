@@ -35,7 +35,7 @@ public class TimeConversion extends Application implements EventHandler<ActionEv
         Label sourceTimeZoneLabel = new Label("Source Time Zone:");
         sourceTimeZoneComboBox = new ComboBox<>();
         sourceTimeZoneComboBox.getItems().addAll(ZoneId.getAvailableZoneIds());
-        sourceTimeZoneComboBox.getSelectionModel().select("Asia/Tokyo");
+        sourceTimeZoneComboBox.getSelectionModel().select("Asia/India");
         Label targetTimeZoneLabel = new Label("Target Time Zone:");
         targetTimeZoneComboBox = new ComboBox<>();
         targetTimeZoneComboBox.getItems().addAll(ZoneId.getAvailableZoneIds());
